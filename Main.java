@@ -107,7 +107,8 @@ public class Main {
 			try {
 				genderDetermination = scan.nextInt();
 			} catch (Exception e) {
-				System.out.println("Your input is not valid!\n");
+				scan.nextLine();
+				//System.out.println("Your input is not valid!\n");
 			}
 			if (genderDetermination == 1 || genderDetermination == 2) {
 				if (genderDetermination == 1)
